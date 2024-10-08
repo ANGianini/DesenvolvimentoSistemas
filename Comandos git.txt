@@ -1,0 +1,14 @@
+a) Crie um arquivo de texto com o nome “Comandos git” e digite os comandos utilizados na aula e para que serve, após isso, realizar o envio do arquivo para a pasta DesenvolvimentoSistemas
+
+cd nome_da_pasta - entra dentro da pasta
+dir - lista todos os arquivos existentes dentro do diretório escolhido 
+mkdir nome_da_pasta - cria pasta
+rmdir nome_da_pasta - exclui pasta
+git init - inicializa a pasta para o software de versionamento
+git add "arquivo" - transfere o arquivo para área de alteração
+touch .gitkeep - para criar um arquivo oculto no diretório
+git --version - verifica a versão e instalação do git
+git status - verifica o status do arquivo
+git commit -m "descrição" - para realizar o envio das alterações
+git remote add origin URL - realiza a conexão
+git push -u origin master - realiza o envio final do arquivo
